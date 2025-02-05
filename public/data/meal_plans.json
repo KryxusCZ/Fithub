@@ -1,0 +1,50 @@
+{
+  "mealPlans": [
+    {
+      "id": 1,
+      "user": 1,
+      "name": "Nabírání svalové hmoty",
+      "description": "Jídelníček zaměřený na zvýšení svalové hmoty s vysokým obsahem bílkovin. Celkový příjem: 3000 kcal (180 g bílkovin, 350 g sacharidů, 90 g tuků). Doporučeno pít dostatek vody během dne.",
+      "meals": [
+        {
+          "id": 101,
+          "name": "Snídaně",
+          "description": "Ovesné vločky (80 g, 300 kcal, 10 g bílkovin, 54 g sacharidů, 5 g tuků), Banán (1 ks, 105 kcal, 1 g bílkovin, 27 g sacharidů, 0 g tuků), Řecký jogurt (150 g, 150 kcal, 15 g bílkovin, 5 g sacharidů, 4 g tuků)."
+        },
+        {
+          "id": 102,
+          "name": "Svačina",
+          "description": "Proteinový shake (1 porce, 200 kcal, 30 g bílkovin, 4 g sacharidů, 2 g tuků), Ořechy (mix, 30 g, 180 kcal, 6 g bílkovin, 6 g sacharidů, 15 g tuků)."
+        },
+        {
+          "id": 103,
+          "name": "Oběd",
+          "description": "Grilované kuřecí prso (200 g, 330 kcal, 62 g bílkovin, 0 g sacharidů, 7 g tuků), Rýže basmati (150 g, 540 kcal, 10 g bílkovin, 120 g sacharidů, 1 g tuků), Zelenina (mix, 100 g, 50 kcal, 2 g bílkovin, 10 g sacharidů, 0 g tuků)."
+        },
+        {
+          "id": 104,
+          "name": "Večeře",
+          "description": "Losos (150 g, 280 kcal, 34 g bílkovin, 0 g sacharidů, 15 g tuků), Brokolice (100 g, 35 kcal, 3 g bílkovin, 7 g sacharidů, 0 g tuků), Batáty (150 g, 130 kcal, 2 g bílkovin, 31 g sacharidů, 0 g tuků)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Redukční dieta",
+      "user": 2,
+      "description": "Jídelníček zaměřený na redukci hmotnosti s nízkým obsahem sacharidů. Celkový příjem: 1800 kcal (140 g bílkovin, 100 g sacharidů, 60 g tuků). Doporučeno se vyhýbat sladkým nápojům.",
+      "meals": [
+        {
+          "id": 201,
+          "name": "Snídaně",
+          "description": "Vejce (3 ks, 210 kcal, 18 g bílkovin, 1 g sacharidů, 15 g tuků), Avokádo (50 g, 80 kcal, 1 g bílkovin, 4 g sacharidů, 7 g tuků)."
+        },
+        {
+          "id": 202,
+          "name": "Oběd",
+          "description": "Krůtí prsa (200 g, 220 kcal, 42 g bílkovin, 0 g sacharidů, 4 g tuků), Zeleninový salát (150 g, 90 kcal, 3 g bílkovin, 10 g sacharidů, 5 g tuků)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+    "users": [
+        {
+          "id": 1,
+          "email": "tomaskosar@seznam.cz",
+          "name": "Tomáš Kosař",
+          "height":"160",
+          "weight" : "80",
+          "age":"23",
+          "password": "heslo123",
+          "role":"admin"
+        },
+        
+        {
+          "id": 2,
+          "img":"user1.jpeg",
+          "height":"190",
+          "weight" : "84",
+          "age":"25",
+          "email": "test@seznam.cz",
+          "name": "Tonda Jouda",
+          "password": "heslo",
+          "role":"zákazník"
+        },
+    
+        {
+          "id": 3,
+          "height":"180",
+          "weight" : "80",
+          "age":"27",
+          "img":"trainer1.jpeg",
+          "email": "lukashladky@seznam.cz",
+          "name": "Lukáš Hladký",
+          "description" : "Ideální pro začátečníky, zaměřený na základní cviky a budování síly.",
+          "password": "heslo12345",
+          "role":"trenér",
+          "users": [2],
+          "trainingPlans": [1, 2]
+        },
+    
+        {
+          "id": 4,
+          "height":"193",
+          "weight" : "94",
+          "age":"26",
+          "img":"trainer2.jpeg",
+          "email": "ondrejmaly@seznam.cz",
+          "name": "Ondřej Malý",
+          "description" : "Ideální pro poklročilé, zaměřený na základní cviky a budování svalů na soutěže.",
+          "password": "heslo1234",
+          "role":"trenér",
+          "users": [2],
+          "trainingPlans": [3]
+        },
+    
+        {
+          "id": 5,
+          "img":"trainer3.jpeg",
+          "email": "milanhluboky@seznam.cz",
+          "name": "Milan Hluboký",
+          "description" : "Ideální pro profesionály, zaměřený na pokročilé cviky a budování síly na soutěže.",
+          "password": "heslo1",
+          "role":"trenér",
+          "users": [2],
+          "trainingPlans": [4]
+        }
+    
+      ]
+    }

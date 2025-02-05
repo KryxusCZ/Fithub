@@ -1,0 +1,58 @@
+:root{
+  --defaultColor:rgb(145, 94, 0);
+  --secondColor:white;
+}
+
+.dashboard-card{
+  background-color: var(--defaultColor) !important;
+}
+
+.bg-orange{
+  background-color: var(--defaultColor) !important;
+}
+
+.page{
+  background-color: aliceblue;
+  flex-direction: column;
+  justify-content: start !important;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-container{
+  width: 100%;
+  justify-content: start;
+  align-items: start;
+}
+
+.content{
+  width: 100%;
+  flex-direction: column;
+  padding: 25px;
+  align-items: start;
+  gap: 25px !important;
+}
+
+.button-container{
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+
+.loadingPage{
+  background-color: aliceblue;
+  width: 100%;
+  height: 100vh;
+}
+
+.loading{
+  border: 6px solid rgba(0, 0, 0, 0.1); /* Světlejší šedá s průhledností */
+  border-top: 8px solid rgb(0, 140, 255); /* Modrá barva */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s ease-in-out infinite; /* Hladší animace */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

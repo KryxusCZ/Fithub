@@ -1,0 +1,145 @@
+{
+    "trainingPlans": [
+      {
+        "id": 1,
+        "name": "Začátečník",
+        "description": "Ideální plán pro začátečníky, zaměřený na základní cviky a budování síly.",
+        "days": [
+          {
+            "day": "Pondělí",
+            "description": "Zaměřeno na dolní část těla, základní cviky na sílu a stabilitu.",
+            "exercises": ["Dřepy: 3x10", "Kliky: 3x8", "Plank: 3x30s"]
+          },
+          {
+            "day": "Středa",
+            "description": "Cviky na záda a celkovou tělesnou stabilitu.",
+            "exercises": ["Mrtvý tah: 3x8", "Shyby: 3x5", "Mountain climbers: 3x20"]
+          },
+          {
+            "day": "Pátek",
+            "description": "Horní část těla a izolované cviky na paže.",
+            "exercises": ["Bench press: 3x10", "Výpady: 3x12 na nohu", "Bicepsové zdvihy: 3x10"]
+          }
+        ],
+        "tips": [
+          "Zaměřte se na správnou techniku místo zvedání těžkých vah.",
+          "Nezapomínejte na rozcvičení a protažení před i po tréninku.",
+          "Dodržujte dostatečný odpočinek mezi tréninkovými dny."
+        ],
+        "user": 2,
+        "trainerId": 3
+      },
+      {
+        "id": 2,
+        "name": "Středně pokročilý",
+        "description": "Pro ty, kteří už mají základní zkušenosti a chtějí rozvíjet svou sílu a vytrvalost.",
+        "days": [
+          {
+            "day": "Pondělí",
+            "description": "Horní část těla se zaměřením na hrudník, nohy a core.",
+            "exercises": ["Bench press: 4x8", "Dřepy: 4x10", "Plank: 4x40s"]
+          },
+          {
+            "day": "Úterý",
+            "description": "Silové cviky na záda a nohy.",
+            "exercises": ["Mrtvý tah: 4x6", "Shyby: 4x6", "Výpady s činkou: 3x12 na nohu"]
+          },
+          {
+            "day": "Čtvrtek",
+            "description": "Silové cvičení na ramena, nohy a paže.",
+            "exercises": ["Military press: 4x8", "Dřepy s činkou: 4x10", "Bicepsové zdvihy: 4x8"]
+          },
+          {
+            "day": "Sobota",
+            "description": "Cviky na vytrvalost a core stabilitu.",
+            "exercises": ["Farmářská chůze: 4x20m", "Kliky na bradlech: 3x12", "Plank na jedné ruce: 3x20s"]
+          }
+        ],
+        "tips": [
+          "Zkuste progresivní přetížení - postupně zvyšujte váhy.",
+          "Dodržujte správnou techniku při mrtvém tahu, abyste předešli zranění zad.",
+          "Nezapomínejte na dostatečný příjem bílkovin pro podporu regenerace."
+        ],
+        "user": 1,
+        "trainerId": 3
+      },
+      {
+        "id": 3,
+        "name": "Pokročilý",
+        "description": "Intenzivní plán pro pokročilé sportovce s rozdělením na partie.",
+        "days": [
+          {
+            "day": "Pondělí",
+            "description": "Hrudník a triceps: Silové a izolační cviky na horní část těla.",
+            "exercises": ["Bench press: 5x5", "Kliky na bradlech: 4x12", "Rozpažování: 4x15"]
+          },
+          {
+            "day": "Úterý",
+            "description": "Dolní část těla: Nohy a lýtka, zaměřené na sílu a stabilitu.",
+            "exercises": ["Dřepy: 5x5", "Výpady s činkou: 4x12 na nohu", "Lýtka: 4x20"]
+          },
+          {
+            "day": "Středa",
+            "description": "Záda a core: Komplexní cviky na celkovou stabilitu.",
+            "exercises": ["Shyby: 5x8", "Mrtvý tah: 5x5", "Přítahy činky: 4x10"]
+          },
+          {
+            "day": "Pátek",
+            "description": "Ramena a triceps: Síla a definice horní části těla.",
+            "exercises": ["Military press: 5x5", "Arnoldovy tlaky: 4x12", "Tricepsové extenze: 4x15"]
+          },
+          {
+            "day": "Sobota",
+            "description": "Vytrvalost a core stabilita: Kardio a komplexní cvičení.",
+            "exercises": ["Kardio: 30 minut", "Farmářská chůze: 5x20m", "Plank: 4x60s"]
+          }
+        ],
+        "tips": [
+          "Dbejte na správné dýchání během cviků s těžkými váhami.",
+          "Zařazujte aktivní regeneraci, jako je lehké kardio nebo strečink.",
+          "Pravidelně sledujte svůj pokrok a přizpůsobujte plán svým cílům."
+        ],
+        "users": 2,
+        "trainerId": 4
+      },
+      {
+        "id": 4,
+        "name": "Kardio",
+        "description": "Intenzivní plán pro běžce sportovce s rozdělením na partie a fyzičku.",
+        "days": [
+          {
+            "day": "Pondělí",
+            "description": "Hrudník a triceps: Silové a izolační cviky na horní část těla.",
+            "exercises": ["Bench press: 5x5", "Kliky na bradlech: 4x12", "Rozpažování: 4x15"]
+          },
+          {
+            "day": "Úterý",
+            "description": "Dolní část těla: Nohy a lýtka, zaměřené na sílu a stabilitu.",
+            "exercises": ["Dřepy: 5x5", "Výpady s činkou: 4x12 na nohu", "Lýtka: 4x20"]
+          },
+          {
+            "day": "Středa",
+            "description": "Záda a core: Komplexní cviky na celkovou stabilitu.",
+            "exercises": ["Shyby: 5x8", "Mrtvý tah: 5x5", "Přítahy činky: 4x10"]
+          },
+          {
+            "day": "Pátek",
+            "description": "Ramena a triceps: Síla a definice horní části těla.",
+            "exercises": ["Military press: 5x5", "Arnoldovy tlaky: 4x12", "Tricepsové extenze: 4x15"]
+          },
+          {
+            "day": "Sobota",
+            "description": "Vytrvalost a core stabilita: Kardio a komplexní cvičení.",
+            "exercises": ["Kardio: 30 minut", "Farmářská chůze: 5x20m", "Plank: 4x60s"]
+          }
+        ],
+        "tips": [
+          "Zaměřte se na udržení stabilního tempa při kardio tréninku.",
+          "Hydratujte se pravidelně během dlouhých běhů nebo intenzivního cvičení.",
+          "Zařazujte intervalový trénink pro zlepšení kondice."
+        ],
+        "users": 2,
+        "trainerId": 5
+      }
+    ]
+  }
